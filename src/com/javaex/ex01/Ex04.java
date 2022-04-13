@@ -19,6 +19,8 @@ public class Ex04 {
 		String str = "안녕하세요";	//""안에 넣을것
 		System.out.println(str);
 		
+		
+		
 	}
 
 		
