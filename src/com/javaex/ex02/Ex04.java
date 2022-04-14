@@ -1,0 +1,30 @@
+package com.javaex.ex02;
+
+import java.util.Scanner;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		int age = sc.nextInt();
+		
+		sc.nextLine();			//숫자를 받고 문자를 받을때는 nextInt가 버그가 있어서 다음 입력값을 못받음. 엔터를 소비해줘야 문자열을 입력 가능함
+		
+		
+		String name = sc.nextLine();
+			
+		System.out.println("당신의 이름은 " + name + "입니다.");
+		
+		System.out.println("당신의 이름은 " + name + " 나이는" + age + "입니다.");
+		
+		
+		sc.close();
+		
+		
+		
+		
+		
+	}
+}
