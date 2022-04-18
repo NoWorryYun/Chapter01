@@ -59,7 +59,7 @@ public class Ex12 {
 			case 4:
 			case 6:
 			case 9:
-			case 1:
+			case 11:
 				System.out.println("30일");
 				break;
 			case 2:
